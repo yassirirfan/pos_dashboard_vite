@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+        <t t-name="merchant_api.Dashboard">
+        <div class="merchant_container">
+<!--            <t t-log="state.merchant_transactions"/>-->
+            <h2>Transaction List</h2>
+<!--            <t t-foreach="state.merchant_transactions" t-as="transaction" t-key="transaction['id']">-->
+<!--                <div class="transaction">-->
+<!--                     <span>Merchant: <t t-esc=""/></span>-->
+<!--                    <span t-esc="transaction['session_id'][1]" />-->
+<!--                    <span class="amount expense" t-esc="transaction['amount']"/>-->
+<!--                </div>-->
+<!--            </t>-->
+<!--            <div class="transaction">-->
+<!--                    <span>Salary Credit</span>-->
+<!--                <span class="amount">+ $2000.00</span>-->
+<!--                </div>-->
+<!--            <div class="transaction">-->
+<!--                    <span>Grocery Shopping</span>-->
+<!--                <span class="amount expense">- $75.00</span>-->
+<!--                </div>-->
+<!--            <div class="transaction">-->
+<!--                    <span>Freelance Work</span>-->
+<!--                <span class="amount">+ $500.00</span>-->
+<!--                </div>-->
+            </div>
+        </t>
+</templates>

@@ -1,0 +1,10 @@
+<odoo>
+  <data>
+    <record model="ir.actions.client" id="action_merchant_dashboard">
+      <field name="name">Merchant Dashboard</field>
+      <field name="tag">merchant_api.Dashboard</field>
+    </record>
+    <menuitem name="Merchant Dashboard " id="merchant_api.menu_root" groups="base.group_user"/>
+    <menuitem name="Dashboard" id="merchant_api.merchant_dashboard" parent="merchant_api.menu_root" action="merchant_api.action_merchant_dashboard" sequence="1"/>
+  </data>
+</odoo>
